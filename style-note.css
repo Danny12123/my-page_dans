@@ -24,9 +24,12 @@
     color: #1F4021;
 }
 
-/* #sec-vid .container .col-5 .other-videos img {
-    width: 100%;
-} */
+#sec-vid .container .col-5 .other-videos {
+    transition: all 1s ease-out;
+}
+#sec-vid .container .col-5 .other-videos:hover {
+    
+}
 
 /* footer */
 footer {
