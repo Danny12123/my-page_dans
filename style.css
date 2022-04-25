@@ -30,6 +30,7 @@ header {
     background-position: top;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 450px, 0 100%);
+    
 }
 #header-nav .navigation {
     display: flex;
@@ -53,7 +54,9 @@ header {
     font-weight: 700;
     
 }
-
+.cont-side, .side-img {
+    display: none;
+}
 #header-nav .head-text {
     margin-top: 70px;
     text-align: center;
@@ -255,6 +258,15 @@ footer .footer .row .col-6-lg input {
     font-weight: 700;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.note-download {
+    padding: 7px 15px;
+    color: #D7D7D9;
+    font-weight: 400;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    background-color: #1F4021;
+}
 /* .reveal {
     position: relative;
     transform: translateY(150px);
@@ -351,6 +363,47 @@ footer .footer .row .col-6-lg input {
     .cont-img p {
         padding-bottom: 25px;
     }
+    /* side
+    #header-nav ul {
+        display: none;
+        margin: 10px;
+    }
+    
+    .side-img {
+        width: 7%;
+        position: relative;
+        top: -360px;
+        right: -640px;
+    }
+    
+    .cont-side {
+        background-color: #353440;
+        width: 30%;
+        height: 100vh;
+        display: block;
+        position: relative;
+        top: -892px;
+        right: -100px;
+        transform: translateX(170px);
+        transition: transform 1s;
+    }
+    
+    .cont-side ul img {
+        width: 20%;
+    }
+    
+    .cont-side ul li {
+        padding: 20px;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .cont-side ul li a {
+        color: #fff;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    } */
 }
 @media screen and (max-width: 420px) {
     footer .footer .row .main-fa-cont  {
@@ -358,4 +411,116 @@ footer .footer .row .col-6-lg input {
         text-align: center;
         margin-left: 0;
     }
+    /* #header-nav ul {
+        display: none;
+        
+    }
+    
+    .side-img {
+        width: 7%;
+        position: relative;
+        top: -360px;
+        right: -640px;
+        display: block;
+    }
+    
+    .cont-side {
+        background-color: #353440;
+        width: 30%;
+        height: 100vh;
+        display: block;
+        
+        top: -892px;
+        right: -50px;
+        transform: translateX(120px);
+        transition: transform 1s;
+    }
+    
+    .cont-side ul img {
+        width: 20%;
+        padding-top: 20px;
+    }
+    
+    .cont-side ul li {
+        padding: 20px;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .cont-side ul li a {
+        color: #fff;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    } */
 }
+/* ---------------------side_bar---------------------- */
+@media screen and (max-width: 700px) {
+    #header-nav ul {
+        display: none;
+        
+    }
+    .side-img {
+        width: 7%;
+        position: relative;
+        top: -360px;
+        right: -640px;
+        display: block;
+    }
+    .cont-side {
+        background-color: #353440;
+        width: 30%;
+        height: 100vh;
+        display: none;
+        position: relative;
+        top: -889px;
+        right: -500px;
+        transform: translateX(200px);
+        transition: transform 1s;
+    }
+    .cont-side ul img{
+        width: 20%;
+        padding-top: 20px;
+    }
+    .cont-side ul li{
+        padding: 20px;
+        list-style: none;
+        text-align: center;
+    }
+    .cont-side ul li a {
+        color: #fff;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+}
+
+/* 
+.cont-try-nav {
+    width: 20%;
+    height: 100vh;
+    background-color: #353440;
+    position: relative;
+    top: -662px;
+    right: -332px;
+    transform: translateX(-150px);
+    transition: transform 1s;
+    
+}
+.cont-try-nav nav ul li {
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+.cont-try-nav nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+.side-close {
+    position: relative;
+    right: -200px;
+    width: 20%;
+    color: #fff;
+} */

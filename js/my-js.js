@@ -35,3 +35,16 @@ function sendEmail() {
 //     }
 //   }
 // }
+
+var Show = document.getElementById("cont_nav");
+var hide = document.getElementById("close");
+
+function open_sideNav() {
+  Show.style.transform = "translateX(0px)";
+  // Show.style.display = "block";
+}
+
+
+function close_sideNav() {
+  Show.style.transform = "translateX(200px)";
+}

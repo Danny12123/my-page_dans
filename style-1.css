@@ -154,7 +154,12 @@ footer .footer .row .col-6-lg input {
     iframe {
         width: 50%;
     }
-    
+    .row {
+        flex: none;
+    }
+    /* .col-sm-5 {
+        display: none;
+    } */
 }
 @media screen and (max-width: 900px) {
     iframe {
