@@ -42,8 +42,7 @@ var hide = document.getElementById("close");
 function open_sideNav() {
   let bigsize = "translateX(0px)"
   Show.style.transform = bigsize;
-  document.getElementById("cont_nav").style.display = "block";
-  // Show.style.display = "block";
+  var blockDisplay = document.getElementById("cont_nav").style.display = "block";  
 }
 
 
@@ -51,7 +50,9 @@ function close_sideNav() {
   let smallsize = "translateX(200px)"
   Show.style.transform = smallsize;
   document.getElementById("cont_nav").style.display = "none";
-  // if (document.getElementById("cont_nav") = smallsize ) {
+  // if (document.getElementById("cont_nav") < smallsize ) {
   //   document.getElementById("cont_nav").style.display = "none";
   // }
+
 }
+
