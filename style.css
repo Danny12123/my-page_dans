@@ -458,8 +458,8 @@ footer .footer .row .col-6-lg input {
         } */
 }
 /* ---------------------side_bar---------------------- */
-/* @media (max-width: 700px) {
-    #header-nav ul {
+@media (max-width: 700px) {
+    /* #header-nav ul {
         display: none;
         
     }
@@ -497,8 +497,8 @@ footer .footer .row .col-6-lg input {
         font-size: 22px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
-    }
-} */
+    } */
+}
 
 /* 
 .cont-try-nav {

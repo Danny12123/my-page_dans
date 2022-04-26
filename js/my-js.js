@@ -53,6 +53,8 @@ function close_sideNav() {
   // if (document.getElementById("cont_nav") < smallsize ) {
   //   document.getElementById("cont_nav").style.display = "none";
   // }
+  
 
 }
+
 
