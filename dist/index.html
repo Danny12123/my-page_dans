@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylee.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"  type="image/png" href="./img/logo.png">
     <title>Dan's Page</title>
 </head>
 <body>
@@ -27,6 +28,7 @@
                     <li><a class="about" href="#about">About us</a></li>
                     <li><a href="blog.html">Blog</a></li>
                 </ul>
+                
             </div>
             <div class="head-text">
                 <h1>Welcome <br> To <span>Dan's Page</span></h1>
@@ -39,6 +41,11 @@
                 </div>
             </div>
         </div>
+
+        <div id="sideopen" onclick="open_sideNav()">
+            <img src="./img/side.jpg" class="side-img" alt="image">
+        </div>
+        
         
         <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -66,8 +73,18 @@
     
     -->
     </header>
+    <div class="cont-side" id="cont_nav">
+        <nav>
+            <ul>
+                <img src="./img/side.jpg" onclick="close_sideNav()" id="close" class="side-close" alt="image">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
     <!--features-->
-    <section id="features">
+    <section id="features" >
         <div class="about-txt">
             <h1>Awesome features</h1>
         </div>
@@ -79,7 +96,7 @@
                 <p>One make creapeth,man bearing thetra firmament won't great heaven</p>
             </div>
             <div class="fea-box">
-                <i class="fal fa-piano-keyboard"></i>
+                <!-- <i class="fal fa-piano-keyboard"></i> -->
                 <h3>Scholarship Facility</h3>
                 <p>One make creapeth,man bearing thetra firmament won't great heaven</p>
             </div>
@@ -114,7 +131,7 @@
     </section>
      
     <!-- blog -->
-    <section id="blog">
+    <section id="blog" class="reveal">
 
         <div class="container-lg">
             <div class="blog-txt">
@@ -172,6 +189,7 @@
             <div class="container-lg">
                 <div class="row">
                     <div class="col-lg-6">
+<<<<<<< HEAD:dist/index.html
                         <form onsubmit="sendEmail(); reset(); ">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label"  >First Name</label>
@@ -186,6 +204,22 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1 message" rows="3"></textarea>
                             <button type="submit"   class="btn-a-3">Send</button>
                         </div>
+=======
+                        <form onsubmit="sendEmail(); reset(); return false;">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label"  >First Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1 name" placeholder="First name">
+                                <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1 phone" placeholder="Phone number">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Send us a message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1 message" rows="3"></textarea>
+                                <button type="submit"   class="btn-a-3">Send</button>
+                            </div>
+>>>>>>> a2c00d27638c826854f8dcf717e384d2210b7112:index.html
                         </form>
                     </div>
                     <div class="col-lg-6 cont-img">
@@ -237,8 +271,8 @@
 
 
 
-    <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/my-js.js"></script>
     <script src="../src/smooth_scroll.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js">
