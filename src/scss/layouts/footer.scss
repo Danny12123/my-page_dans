@@ -1,0 +1,25 @@
+/* footer */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    color: $color-primary;
+    font-weight: 600;
+}
+footer .footer {
+    text-align: start;
+}
+footer .footer .row .col-6-lg li {
+    list-style: none;
+    
+}
+footer .footer .row .col-6-lg li a{
+    list-style: none;
+    text-decoration: none;
+    color: #1F4021;
+    font-weight: 500;
+}
+footer .footer .row .col-6-lg input {
+    border: none;
+    padding: 9px;
+    border-bottom: #1F4021 1px solid;
+}
