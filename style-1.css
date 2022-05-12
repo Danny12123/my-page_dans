@@ -49,6 +49,7 @@ header {
 }
 iframe {
     height: 35vh;
+    width: 100%;
 }
 .main-box .blog-box:hover {
     box-shadow: 6px 6px 50px rgba(28, 27, 27, 0.626);
@@ -152,7 +153,7 @@ footer .footer .row .col-6-lg input {
         transition: 0.39s ease-in;
     }
     iframe {
-        width: 50%;
+        width: 100%;
     }
     .row {
         flex: none;
@@ -163,12 +164,10 @@ footer .footer .row .col-6-lg input {
 }
 @media screen and (max-width: 900px) {
     iframe {
-        width: 510px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 1016px) {
-    iframe {
-        width: 450px;
-    }
+    
     
 }

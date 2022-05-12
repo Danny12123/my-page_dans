@@ -16,7 +16,7 @@ function sendEmail() {
     
 }
 
-// window.addEventListener('scroll', reveal);
+// window.addEventListener('scroll', reveal); 
 
 // function reveal() {
 //   var reveals = querySelectorAll('.reveal');
