@@ -1,6 +1,24 @@
 #features {
     padding: 0vw 8vw 0 8vw;
     text-align: center;
+<<<<<<< HEAD
+    
+
+   
+  
+}
+
+.anim{
+    opacity: 0;
+    transform: scale(0);
+    transition: all 3s;
+}
+
+ .active{
+    opacity: 1;
+    transform: scale(1);
+=======
+>>>>>>> main
 }
 
 .fa-guitar {
@@ -23,6 +41,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 1rem;
+<<<<<<< HEAD
+   
+   
+=======
+>>>>>>> main
     
 }
 
