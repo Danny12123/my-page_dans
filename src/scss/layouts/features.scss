@@ -1,0 +1,53 @@
+#features {
+    padding: 0vw 8vw 0 8vw;
+    text-align: center;
+}
+
+.fa-guitar {
+    padding: 10px;
+    font-size: 40px;
+}
+
+#features h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#features p {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(70, 70, 87);
+}
+
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    
+}
+
+#features .fea-box {
+    text-align: start;
+    transition: 1s ease;
+    padding: 10px;
+}
+#features .fea-box:hover {
+    transform: translateY(-10px);
+    background-color: #DFEDF2;
+    border-radius: 5px;
+}
+#features .fea-box h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0 7px 0;
+}
+
+#features .fea-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 87);
+    font-family: arial;
+}
+

@@ -1,0 +1,12 @@
+
+@use '../base/variables';
+
+body {
+  font-size: $bg-font-size;
+  color:$color-primary;
+  background-color:$color-secondary;
+
+}
+.content{
+  font-size: $bg-font-size;
+}

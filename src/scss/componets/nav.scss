@@ -1,0 +1,60 @@
+@import '../base/variables';
+
+#header-nav .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+#header-nav .logo img {
+    width: 55%;
+}
+#header-nav ul {
+    display: flex;
+    margin: 10px;
+}
+#header-nav ul li {
+    padding: 10px;
+    list-style: none;
+}
+#header-nav ul li a {
+    text-decoration: none;
+    color: $color-primary;
+    font-family:  sans-serif;
+    font-weight: 700;
+    
+}
+
+#header-nav .head-text {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#header-nav .head-text h1 {
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: $color-smoke-white;
+}
+#header-nav .head-text p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $color-black;
+    
+}
+#header-nav .head-text .btn .btn-a-1 {
+    text-decoration: none;
+    padding: 11px;
+    color: $color-smoke-white;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $color-primary;
+}
+
+#header-nav .head-text .btn .btn-a-2 {
+    text-decoration: none;
+    padding: 10px;
+    color: $color-smoke-white;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border: $color-primary 2px solid;
+}
