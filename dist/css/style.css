@@ -23,9 +23,7 @@ hr {
     border: #1F4021 2px solid;
     border-radius: 5px;
 }
-<<<<<<< HEAD:dist/css/style.css
 
-=======
 header {
     width: 100%;
     height: 90vh;
@@ -64,17 +62,6 @@ header {
     margin-top: 70px;
     text-align: center;
 }
->>>>>>> a2c00d27638c826854f8dcf717e384d2210b7112:style.css
-
-
-<<<<<<< HEAD
-/*
-
-*/
-
-
-
-=======
 
 /*
 
@@ -82,7 +69,15 @@ header {
 
 
 
-<<<<<<< HEAD:style.css
+
+
+/*
+
+*/
+
+
+
+
 #features .fea-box {
     text-align: start;
     transition: 1s ease;
@@ -137,9 +132,7 @@ header {
     font-weight: 400;
     margin-top: 16px;
 }
-=======
->>>>>>> cb6dfc4af716a2f89b91de57ed4663dab95c2d17:dist/css/style.css
->>>>>>> main
+
 /* blog */
 .blog-txt {
     text-align: center;
