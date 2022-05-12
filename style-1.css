@@ -53,7 +53,7 @@ iframe {
 }
 .main-box .blog-box:hover {
     box-shadow: 6px 6px 50px rgba(28, 27, 27, 0.626);
-    transform: translateZ(200px);
+    transform: translateZ(300px);
 }
 .blog-box a {
     text-decoration: none;
@@ -74,12 +74,14 @@ iframe {
 .main-box .blog-box h2{
     color: #1F4021;
     font-weight: 600;
+    font-size: 20px;
     text-align: start;
-    padding: 10px;
+    padding: 5px;
 }
 .main-box .blog-box p{
     color: #1F4021;
     font-weight: 400;
+    font-size: 15px;
     text-align: start;
     padding: 10px;
 }
@@ -148,7 +150,7 @@ footer .footer .row .col-6-lg input {
     }
     .blog-box {
         background-color: #f0f0f2b6;
-        width: 114%;
+        width: 100%;
         border-radius: 7px;
         transition: 0.39s ease-in;
     }
