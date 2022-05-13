@@ -11,6 +11,8 @@ window.addEventListener('scroll', ()=>{
         console.log("2st position of window" + windowPosition);
 
 
+
+
     }else {
         features.classList.remove('active');
         console.log("3st position of element" + positionOfElement);
@@ -18,4 +20,8 @@ window.addEventListener('scroll', ()=>{
     }
 
 
+});
+
+AOS.init({
+    duration: 1200,
 });
