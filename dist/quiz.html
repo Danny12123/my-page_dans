@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan's Page quiz</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylee.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="qz_body">
+    <div class="home-box custom-box hide">
+        <h3>instructor:</h3>
+        <p>Total number of question: <span class="total-question">5</span></p>
+        <button type="button" class="btn">Start Quize</button>
+    </div>
+
+    <div class="quiz-box custom-box ">
+        <div class="question-number">
+            
+        </div>
+        <div class="question-text">
+           
+        </div>
+        <div class="option-container">
+            
+        </div>
+        <div class="next-question-btn">
+            <button type="button" class="btn_qt" onclick="next()">Next</button>
+        </div>
+        <div class="answers-indicator">
+            
+        </div>
+    </div>
+
+    <div class="result-box custom-box hide ">
+        <h3>Quiz Result</h3>
+        <table>
+            <tr>
+                <td>Total Queston</td>
+                <td><span class="total-question">5</span></td>
+            </tr>
+            <tr>
+                <td>Attempt</td>
+                <td><span class="total-attempt">4</span></td>
+            </tr>
+            <tr>
+                <td>Correct</td>
+                <td><span class="total-correct">3</span></td>
+            </tr>
+            <tr>
+                <td>Wrong</td>
+                <td><span class="total-wrong">1</span></td>
+            </tr>
+            <tr>
+                <td>Percentage</td>
+                <td><span class="percentage">60.0</span></td>
+            </tr>
+            <tr>
+                <td>Your Tatal score</td>
+                <td><span class="total-score">3 / 5</span></td>
+            </tr>
+        </table>
+        <button type="button" class="btn_qt">Try Again</button>
+        <button type="button" class="btn_qt">Go To Home</button>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/my-js.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="../src/smooth_scroll.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+
+
+</body>
+</html>

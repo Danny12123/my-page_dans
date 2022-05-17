@@ -36,25 +36,26 @@ function sendEmail() {
 //   }
 // }
 
-var Show = document.getElementById("cont_nav");
-var hide = document.getElementById("close");
+//header nav anim
+// window.addEventListener('scroll', function(){
+//     //const logoMain = document.getElementsByClassName('logoimg');
+//     const mainNav = document.getElementById('header');
+//     const logoImage = document.querySelector('.header_logo');
+    
+//     const logoTxt = document.getElementById('nav_1');
 
-function open_sideNav() {
-  let bigsize = "translateX(0px)"
-  Show.style.transform = bigsize;
-  var blockDisplay = document.getElementById("cont_nav").style.display = "block";  
-}
-
-
-function close_sideNav() {
-  let smallsize = "translateX(200px)"
-  Show.style.transform = smallsize;
-  document.getElementById("cont_nav").style.display = "none";
-  // if (document.getElementById("cont_nav") < smallsize ) {
-  //   document.getElementById("cont_nav").style.display = "none";
-  // }
-  
-
-}
+//     if (window.pageYOffset > 0){
+//         logoImage.style.width = '70%';
+//         logoImage.style.background = '#94A66D';
+//         // logoImage.style.color = '#000';
+//         // logoH3.style.fontSize = '15px';
+//     }
+//     else {
+//         logoImage.style.width = '100%';
+//         // logoImage.style.background = '#fff';
+//         // logoImage.style.si = '#000';
+//         // logoH3.style.fontSize = '25px';
+//     }
+// })
 
 

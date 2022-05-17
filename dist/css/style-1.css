@@ -96,7 +96,7 @@ iframe {
 }
 
 /* footer */
-footer {
+/* footer {
     margin-top: 20px;
     padding: 20px;
     color: #1F4021;
@@ -166,9 +166,7 @@ footer .footer .row .col-6-lg input {
     .row {
         flex: none;
     }
-    /* .col-sm-5 {
-        display: none;
-    } */
+   
 }
 @media screen and (max-width: 900px) {
     iframe {
@@ -178,4 +176,4 @@ footer .footer .row .col-6-lg input {
 @media screen and (max-width: 1016px) {
     
     
-}
+} */

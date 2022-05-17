@@ -1,0 +1,45 @@
+@import '../base/variables';
+#m_header {
+    width: 100%;
+        height: 15vh;
+        background-image: linear-gradient(to right bottom, $color-gradient-one, $color-gradient-two), url("../../../dist/assets/img/pic-5.jpg");
+        background-position: top;
+        background-size: cover;
+        
+}
+#m_header .m_header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#m_header .m_header img {
+    width: 10%;
+}
+#m_header .m_header ul {
+    display: flex;
+    
+}
+#m_header .m_header ul li {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+#m_header .m_header ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #1F4021;
+        font-family: sans-serif;
+        font-weight: 700;
+}
+span {
+    color: $color-primary;
+}
+.m_header_text {
+    text-align: center;
+}
+hr {
+    width: 100%;
+    border: $color-primary 2px solid;
+    border-radius: 5px;
+}
+
