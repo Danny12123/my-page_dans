@@ -31,10 +31,7 @@ h3 {
 p {
     font-weight: $font-weight-sub-header;
 }
-.header_logo {
-    width: 100%;
-    margin-top: 20px;
-}
+
 .responsive {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
 }
@@ -42,10 +39,31 @@ p {
 article {
     margin: 0 0 20px 0;
 }
+.fa  {
+    text-decoration: none;
+    padding: 10px;
+    color: #1F4021;
+    font-size: 20px;
+}
 
 // qz
-#qz_bod {
-    
+.quiz_cont {
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #1F4021;
+    border-radius: 20px;
+    padding: 13px;
+    color: #fff;
+    font-weight: 500;
+}
+.quiz_cont a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    background-color: #009968;
+    border-radius: 10px;
+    padding: 5px 15px;
 }
 
 .custom-box {

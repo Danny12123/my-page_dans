@@ -1,7 +1,16 @@
 
 @import '../base/variables';
 //@import url(../../../dist/assets/img/pic-5.jpg);
+// .scroll_box {
+//     width: 100%;
+//     height: 12vh;
+//     background-color: #1F4021;
+//     transition: ease-in 0.4s;
+//     // display: none;
+//     position: fixed;
+//     z-index: 1000;
 
+// }
 header {
     width: 100%;
     height: 90vh;
@@ -10,7 +19,19 @@ header {
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 450px, 0 100%);
 }   
-
+.header_logo {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    transition: height 0.4s;
+    position: relative;
+}
+.header_logo_1 {
+    width: 100%;
+    height: 80px;
+    transition: height 0.4s;
+    position: relative;
+}
 #header-nav .navigation {
     display: flex;
     justify-content: space-between;
@@ -39,5 +60,34 @@ header {
     text-align: center;
 }
 
-
+@media (max-width: 700px) {
+    header {
+            width: 100%;
+            height: 60vh;
+            background-image: linear-gradient(to right bottom, $color-gradient-one, $color-gradient-two), url("../../../dist/assets/img/pic-5.jpg");
+            background-position: top;
+            background-size: cover;
+            clip-path: polygon(0 0, 100% 0, 100% 450px, 0 100%);
+        }
+}
+@media (max-width: 900px) {
+    header {
+            width: 100%;
+            height: 70vh;
+            background-image: linear-gradient(to right bottom, $color-gradient-one, $color-gradient-two), url("../../../dist/assets/img/pic-5.jpg");
+            background-position: top;
+            background-size: cover;
+            clip-path: polygon(0 0, 100% 0, 100% 450px, 0 100%);
+        }
+}
+// @media (max-width: 1860px) {
+//     header {
+//             width: 100%;
+//             height: 70vh;
+//             background-image: linear-gradient(to right bottom, $color-gradient-one, $color-gradient-two), url("../../../dist/assets/img/pic-5.jpg");
+//             background-position: top;
+//             background-size: cover;
+//             clip-path: polygon(0 0, 100% 0, 100% 450px, 0 100%);
+//         }
+// }
 

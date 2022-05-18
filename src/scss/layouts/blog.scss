@@ -1,0 +1,19 @@
+
+/* blog */
+.blog-txt {
+    text-align: center;
+
+}
+
+.blog-txt h1 {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F4021;
+}
+
+.blog-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    text-align: center;
+}

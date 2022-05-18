@@ -17,8 +17,27 @@ window.addEventListener('scroll', ()=>{
         console.log("3st position of window" + windowPosition);
     }
 
-
 });
+
+//header scroll animation
+window.addEventListener('scroll', function() {
+  const logoImage = this.document.querySelector(".header_logo");
+  const logoImage1 = this.document.querySelector(".header_logo_1");
+  const mainNav = this.document.querySelector("nav_1");
+  const mainheader = this.document.querySelector("m_header");
+
+  if (window.pageYOffset > 0) {
+      logoImage.style.height = "40px";
+      logoImage1.style.height = "40px";
+      mainheader.style.height = "9px";
+  }
+  else {
+      logoImage.style.height = "80px";
+      logoImage1.style.height = "80px";
+      mainheader.style.height = "15px";
+  }
+})
+
 
 
 
@@ -32,7 +51,7 @@ const quiz = [
     answer: 1
   },
   {
-    q: 'On a standard guitar, there are _________ which include the tuning posts to hold each string in place and tuning pegs that turn to adjust the tuning.____ is the act of arranging sounds in time though the elements of melody, harmony, rhythm, and timbre.',
+    q: 'On a standard guitar, there are _________ which include the tuning posts to hold each string in place and tuning pegs that turn to adjust the tuning.',
     options: ['Guitar', 'Tuning Machine', 'string', 'Pegs'],
     answer: 1
   },
@@ -113,28 +132,33 @@ function getNewQuestion() {
     const index1 = availableQuestions.indexOf(questionIndex);
     //remove the "questionIndex" from the availbalequestion array; so that the question doses not repeat
     availableQuestions.splice(index1, 1);
-
+    
     //set options
     //get the length of option
-    const optionLen = currentQuestion.options.length;
-    //push options into availbalequestion array;
-    // for (var i=0; 1<optionLen; i++) {
+    const optionLen = currentQuestion.options.length
+    // push options into availbalequestion array;
+    // let i = 0
+    // while (i <= optionLen) {
     //     availableOptions.push(i)
     // }
-    //create option in innerhtml
-    // for (var i=0; i<optionLen; i++) {
-    //     const option = document.createElement("div");
-    //     // option.innerHTML + currentQuestion.options[i];
-    //     // option.id = i;
-    //     // option.className = "option";
-    //     // optionContainer.appendChild(option);
+    // for (let i=0; 1<optionLen; i++) {
+    //     availableOptions.push(i)
     // }
+    
+    // create option in html
+    for (let i=0; i<optionLen; i++) {
+        const option = document.createElement("div");
+        option.innerHTML = currentQuestion.options[i];
+        option.id = i;
+        option.className = "option";
+        optionContainer.appendChild(option);
+    }
     questonCounter++
 }
 
 function next() {
     if (questonCounter === quiz.length) {
-        console.log("quiz over");
+        alert('Quiz is over');
     }
     else {
         getNewQuestion();

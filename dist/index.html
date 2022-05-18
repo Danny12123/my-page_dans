@@ -20,6 +20,9 @@
 </head>
 <body>
     <header id="header">
+        <!-- <div class="scroll_box">
+
+        </div> -->
         <div class="container-lg" id="header-nav">
             <div class="navigation">
                 <div class="logo">
@@ -100,10 +103,11 @@
    </section>
     <!-- about -->
     <section id="about">
-        <div class="about-txt">
-            <h1>About Us</h1>
-        </div>
-        <div class="container-lg">
+       
+        <div class="container-lg about-cont">
+            <div class="about-txt">
+                <h1>About Us</h1>
+            </div>
             <div class="row row-1">
                 <div class="col-lg-6 col-txt">
                     
@@ -138,10 +142,10 @@
                         allowfullscreen></iframe>
                     <div class="card-body">
                         <h5 class="card-title" style="color: #1F4021; font-weight: 700; font-family: arial; font-size: 20px;">How to identify all the C note on the guitar</h5>
-                        <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.<br><br>Step One; Lean the name of the open
-                        string.</p>
+                        <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.</p>
                         <a href="note.html" class="btn" style="background-color: #1F4021; color: #fff;">Ready more</a> 
                     </div>
+                    
                 </div>
                 <div class="card" style="width: 22rem;">
                     <iframe width="350" height="250" src="https://www.youtube.com/embed/bznLr42OI6s" title="YouTube video player"
@@ -149,8 +153,7 @@
                         allowfullscreen></iframe>
                     <div class="card-body">
                         <h5 class="card-title" style="color: #1F4021; font-weight: 700; font-family: arial; font-size: 20px;">How to identify the note on the guitar</h5>
-                        <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.<br><br>Step One; Lean the name of the open
-                        string.</p>
+                        <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.</p>
                         <a href="note-2.html" class="btn" style="background-color: #1F4021; color: #fff;">Ready more</a> 
                     </div>
                 </div> 
@@ -160,8 +163,7 @@
                         allowfullscreen></iframe>
                     <div class="card-body">
                         <h5 class="card-title" style="color: #1F4021; font-weight: 700; font-family: arial; font-size: 20px;">The part of the guitar</h5>
-                        <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.<br><br>Step One; Lean the name of the open
-                        string.</p>
+                        <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.</p>
                         <a href="note-3.html" class="btn" style="background-color: #1F4021; color: #fff;">Ready more</a> 
                     </div>
                 </div>
@@ -172,7 +174,7 @@
         </div>
     </section>
 
-    <!-- contact -->
+    <!-- contact cols="90" rows="5" -->
     <section id="contact">
         <div class="contact">
             
@@ -181,27 +183,31 @@
                    <div class="col-md-4">
                        <h1><span style="color: #F0F0F2;">Let's</span> get in touch</h1>
                        <p>We're open for any suggestion or just to have a chat</p>
-                       <h5>Address kn 90 street,Sute 735 New York</h5>
+                       <h5><i class="fa fa-location-arrow" aria-hidden="true"></i>Address kn 90 street,Sute 735 New York</h5>
                         <br><br>
-                       <h5>Phone +233 555 240 095</h5><br><br>
-                       <h5>Email danspage@095</h5><br><br>
-                       <h5>Website - www.danspage.com</h5>
+                       <h5><i class="fa fa-phone" aria-hidden="true"></i>Phone +233 555 240 095</h5><br><br>
+                       <h5><i class="fa fa-envelope" aria-hidden="true"></i>Email danspage@095</h5><br><br>
+                       <h5><i class="fa fa-globe" aria-hidden="true"></i>Website - www.danspage.com</h5>
 
                    </div>
                    <div class="col-md-8">
                        <h1>Get in touch</h1>
-                       <form action="#" id="contact-form">
-                            <div class="form-input">
-                                <label for="#">FULL NAME</label><br>
-                                <input type="text" name="FirstName" id="FirstName" placeholder="Name">
-                                <label for="#">EMAIL ADDRESS</label><br>
-                                <input type="email" name="Email" id="Email" placeholder="Email">
+                       <form action="#" name="contact" method="POST" data-netlify="true" id="contact-form">
+                            <div class="form-input row">
+                                <div class="col-md-6">
+                                    <label for="#">FULL NAME</label><br>
+                                    <input type="text" name="name" id="FirstName" placeholder="Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="#">EMAIL ADDRESS</label><br>
+                                    <input type="email" name="email" id="Email" placeholder="Email">
+                                </div>
                             </div>
                            <label for="#">SUBJECT</label>
                            <input type="text" name="Subject" id="Subject" placeholder="Subject">
                            <label for="#">MESSAGE</label>
-                           <input type="text" name="Message" placeholder="Message">
-                           <button class="btn-form">Send Message</button>
+                           <textarea name="message" id="Message" placeholder="Message" ></textarea>
+                           <button type="submit" class="btn-form">Send Message</button>
 
                        </form>
                    </div>
@@ -209,7 +215,7 @@
             </div>
         </div>
     </section>
-    <a href="quiz.html">quiz</a>
+    
 
     <footer>
         <div class="container-lg">

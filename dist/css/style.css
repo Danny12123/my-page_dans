@@ -37,7 +37,7 @@
 
 
 
-/* blog */
+/* blog
 .blog-txt {
     text-align: center;
     
@@ -52,7 +52,7 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 1rem;
     text-align: center;
-}
+} */
 
 /* contact
 #contact {
