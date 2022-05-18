@@ -10,21 +10,25 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    <!-- <link rel="stylesheet" href="./css/bootstrap.css">-->
+   
    <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylee.css">
-   
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
     <link rel="shortcut icon"  type="image/png" href="./img/logo.png">
     <title>Dan's Page</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container-lg" id="header-nav">
             <div class="navigation">
                 <div class="logo">
-                    <img src="assets/img/logo.png" alt="logo">
+                    <img src="assets/img/logo.png" class="header_logo" alt="logo">
                 </div>
-                <ul>
+                <ul id="nav_1">
                     <li><a href="index.html">Home</a></li>
                     <li><a class="about" href="#about">About us</a></li>
                     <li><a href="blog.html">Blog</a></li>
@@ -38,16 +42,11 @@
                 </p>
                 <div class="btn">
                     <a href="blog.html" class="btn-a-1">Learn More</a>
-                    <a href="#contact" class="btn-a-2">Join Us</a>
+                    <a href="#contact" class="btn-a-2">Contact Us</a>
                 </div>
             </div>
         </div>
 
-        <div id="sideopen" onclick="open_sideNav()">
-            <img src="./img/side.jpg" class="side-img" alt="image">
-        </div>
-
-        
         
         
         <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -76,17 +75,7 @@
     
     -->
     </header>
-    <div class="cont-side" id="cont_nav">
-        <nav>
-            <ul>
-                <img src="./img/side.jpg" onclick="close_sideNav()" id="close" class="side-close" alt="image">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!--features-->
+    <!-------------------features----------------------->
     <section id="features" >
       <div class="anim">
         <div class="about-txt">
@@ -98,6 +87,7 @@
             <div class="fea-box">
                 <h3>Scholarship Facility</h3>
                 <p>One make creapeth,man bearing thetra firmament won't great heaven</p>
+                <a href="guitar-lesson-part-1.html">Learn more --></a>
             </div>
             <div class="fea-box">
                 <!-- <i class="fal fa-piano-keyboard"></i> -->
@@ -112,15 +102,13 @@
     </div>  
    </section>
     <!-- about -->
-    <div class="about-txt"><h1>About Us</h1>
-    </div>
     <section id="about">
-        <div class="container-lg" >
+        <div class="about-txt">
+            <h1>About Us</h1>
+        </div>
+        <div class="container-lg">
             <div class="row row-1">
-                <div class="col-lg-6" data-aos="fade-right">
-                    <img src="assets/img/rock band.jpg" class="responsive" alt="image about us">
-                </div>
-                <div class="col-lg-6 col-txt " data-aos="fade-left" >
+                <div class="col-lg-6 col-txt" data-aos="fade-right">
                     
                     <p>Dan's page is one of the different online page that gives tutorials in many ways. What makes it different is
                         that,in every tutorials for each instrument is been taught by a single instructor.<br> <br>This makes it different
@@ -129,6 +117,9 @@
                         sael but focuse on teaching you how to play, jam, and write music.We don't teach songs on this site, instead. You
                         will get to know how thoes guitar parts where created in the first place and where they came about.
                     </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="assets/img/rock band.jpg" class="responsive" alt="image about us">
                 </div>
             </div>
         </div>
@@ -148,7 +139,7 @@
                     <iframe width="350" height="250" src="https://www.youtube.com/embed/LroT5I-VfAo" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                    <div class="card-body">
+                    <div class="card-body" >
                         <h5 class="card-title" style="color: #1F4021; font-weight: 700; font-family: arial; font-size: 20px;">How to identify all the C note on the guitar</h5>
                         <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.<br><br>Step One; Lean the name of the open
                         string.</p>
@@ -159,18 +150,18 @@
                     <iframe width="350" height="250" src="https://www.youtube.com/embed/bznLr42OI6s" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                    <div class="card-body">
+                    <div class="card-body"  >
                         <h5 class="card-title" style="color: #1F4021; font-weight: 700; font-family: arial; font-size: 20px;">How to identify the note on the guitar</h5>
                         <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.<br><br>Step One; Lean the name of the open
                         string.</p>
                         <a href="note-2.html" class="btn" style="background-color: #1F4021; color: #fff;">Ready more</a> 
                     </div>
-                </div>
+                </div> 
                 <div class="card" style="width: 22rem;"  data-aos="fade-up">
                     <iframe width="350" height="250" src="https://www.youtube.com/embed/tUQdXjIg9PM" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                    <div class="card-body">
+                    <div class="card-body" >
                         <h5 class="card-title" style="color: #1F4021; font-weight: 700; font-family: arial; font-size: 20px;">The part of the guitar</h5>
                         <p class="card-text">This are same four easy steps to identify or memorize the note on the guitar.<br><br>Step One; Lean the name of the open
                         string.</p>
@@ -186,74 +177,60 @@
 
     <!-- contact -->
     <section id="contact">
-        <div class="blog-txt" style="margin-top: 15px;">
-            <h1>Contact</h1>
-            <p>Are you looking for tip? Contact us for more and nice tip</p>
-        </div>
         <div class="contact">
-            <div class="container-lg">
-                <div class="row">
-                    <div class="col-lg-6">
+            
+            <div class="container-md">
+               <div class="row">
+                   <div class="col-md-4" data-aos="zoom-in-down">
+                       <h1><span style="color: #F0F0F2;">Let's</span> get in touch</h1>
+                       <p>We're open for any suggestion or just to have a chat</p>
+                       <h5>Address kn 90 street,Sute 735 New York</h5>
+                        <br><br>
+                       <h5>Phone +233 555 240 095</h5><br><br>
+                       <h5>Email danspage@095</h5><br><br>
+                       <h5>Website - www.danspage.com</h5>
 
-                        <form onsubmit="sendEmail(); reset(); ">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label"  >First Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1 name" placeholder="First name">
-                            <label for="exampleFormControlInput1" class="form-label">Phone number</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1 phone" placeholder="Phone number">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Send us a message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1 message" rows="3"></textarea>
-                            <button type="submit"   class="btn-a-3">Send</button>
-                        </div>
-
-                        <form onsubmit="sendEmail(); reset(); return false;">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label"  >First Name</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1 name" placeholder="First name">
-                                <label for="exampleFormControlInput1" class="form-label">Phone number</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1 phone" placeholder="Phone number">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                   </div>
+                   <div class="col-md-8" data-aos="zoom-in-up">
+                       <h1>Get in touch</h1>
+                       <form action="#" id="contact-form">
+                            <div class="form-input">
+                                <label for="#">FULL NAME</label><br>
+                                <input type="text" name="FirstName" id="FirstName" placeholder="Name">
+                                <label for="#">EMAIL ADDRESS</label><br>
+                                <input type="email" name="Email" id="Email" placeholder="Email">
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Send us a message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1 message" rows="3"></textarea>
-                                <button type="submit"   class="btn-a-3">Send</button>
-    
-                        </form>
-                    </div>
-                    <div class="col-lg-6 cont-img">
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eaque iusto asperiores. Omnis labore officiis nobis tenetur, unde natus ea mollitia perferendis possimus! Accusamus laborum fuga nobis provident odio. Dolorum!</p>
-                    </div>
-                </div>
+                           <label for="#">SUBJECT</label>
+                           <input type="text" name="Subject" id="Subject" placeholder="Subject">
+                           <label for="#">MESSAGE</label>
+                           <input type="text" name="Message" placeholder="Message">
+                           <button class="btn-form">Send Message</button>
+
+                       </form>
+                   </div>
+               </div>
             </div>
         </div>
     </section>
-
+    <a href="quiz.html">quiz</a>
 
     <footer>
         <div class="container-lg">
             <div class="footer">
                 <div class="row">
-                    <div class="col-6-lg">
+                    <div class="col-md-6">
                         <h2>Services</h2>
                         <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
                             <li><a href="#">Guitar tutorials</a></li>
                             <li><a href="#">Organ tutorials</a></li>
-                            <li><a href="#">Music</a></li>
                         </ul>
-                        <p>Get notified when we make a new update</p>
-                        <input type="email" placeholder="Enter your email"><button class="btn" style="background-color: #1F4021; color: #fff;">SUBSCRIBE</button>
                     </div>
-                    <div class="col-6-lg main-fa-cont">
-                        <div class="about-txt">
-                            <h1>Dan's Page</h1>
-                            <p>Join us on our social midea platform</p>
-                        </div>
+                    <div class="col-md-6">
+                        <h6>Get notified when we make a new update</h6>
+                        <input type="email" placeholder="Enter your email"><button class="btn"
+                            style="background-color: #1F4021; color: #fff;">SUBSCRIBE</button>
                         <div class="fa-cont">
                             <a href="https://fb.watch/aN3QpsnpwX/"><i class="fab fa-facebook-square"></i></a>
                             <a href="https://www.instagram.com/reel/CYDTsuHpw75/"><i class="fab fa-instagram"></i></a>
@@ -261,7 +238,8 @@
                             <a href="https://www.youtube.com/channel/UCanJ_r7wDwy57c-8h2ifaiA"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
-                </div> 
+                </div>
+                
             </div>
             <hr>
             <div class="coypright">
@@ -274,13 +252,13 @@
 
 
 
-<!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.js"></script>
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/bootstrap.bundle.js"></script>
-    <script src="js/my-js.js"></script>
-    <script src="scripts/index.js"></script>
+    <script src="./js/my-js.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="../src/smooth_scroll.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
 

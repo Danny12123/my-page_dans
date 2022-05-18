@@ -1,5 +1,5 @@
+@import '../base/variables';
 /* about */
-
 .container-lg .row .col-lg-6 img {
     width: 100%;
     border-radius: 5px;
@@ -12,7 +12,8 @@
     url(./img/pic-5.jpg);
     background-position: top;
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 400px, 0 100%);
+    clip-path: polygon(0 200px, 0 100%, 100% 100%, 100% 0);
+    // clip-path: polygon(100% 50px , 0 100%, 100% 20px, 0 100%);
 }
 .about-txt h1{
     font-weight: 700;
@@ -25,5 +26,5 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #F0F0F2;
     font-weight: 400;
-    margin-top: 55px;
+    margin-top: 110px;
 }

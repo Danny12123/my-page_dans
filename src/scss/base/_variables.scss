@@ -3,13 +3,37 @@ $color-secondary: #94A66D;
 $color-complimentary: #B0BF99;
 $color-smoke-white: #D7D7D9;
 $color-black: #000;
-$color-gradient-one: hsla(83, 23%, 67%, 0.847);
+$color-gradient-one: #b0bf99d8;
 $color-gradient-two:  #94a66dd8;
+$color-background: #353440;
+
+//new colors
+$color-deep-dark-green: #182321;
+$color-dark-green: #273B37;
+$color-deep-green: #273B28;
+$color-light-deep-green: #273a28cc;
+$color-ligt-trans-green: #c3d1add4;
+$color-trans-green: #235706cc;
 
 
 
 //font-size
-$bg-font-size: 20rem;
-$font-size-main-header: 6rem;
+$bg-font-size: 25rem;
+$font-size-main-header: 12rem;
 $font-size-sub-header: 2.8rem;
 $font-size-body: 1.8rem;
+$font-weight-main-header: 900;
+$font-weight-sub-header: 500;
+
+//font-family
+$font-family-main-header: Arial;
+$font-family-sub: -apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+Roboto,
+Oxygen,
+Ubuntu,
+Cantarell,
+'Open Sans',
+'Helvetica Neue',
+sans-serif;
