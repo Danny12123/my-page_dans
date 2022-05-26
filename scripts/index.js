@@ -176,12 +176,7 @@ window.onload = function() {
 }
 
 
-
-<<<<<<< HEAD:dist/scripts/index.js
-=======
-});
-
 AOS.init({
     duration: 1200,
 });
->>>>>>> d24db1c0dea0c7e0cb05cf245ce1251e6ec4d1fa:scripts/index.js
+

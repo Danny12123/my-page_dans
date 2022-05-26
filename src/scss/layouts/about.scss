@@ -8,7 +8,8 @@
 #about {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, #b0bf99d8, #94a66dd8),
+    background-image: linear-gradient(to right bottom, $color-deep-green,
+        $color-trans-green),
     url(./img/pic-5.jpg);
     background-position: top;
     background-size: cover;
