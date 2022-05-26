@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel watch:sass",
-    "watch:sass": "node-sass src/scss/main.scss dist/css/stylee.css -w",
-    "compile:sass": "node-sass src/scss/main.css dist/css/style.compile.css",
+    "watch:sass": "node-sass src/scss/main.scss css/stylee.css -w",
+    "compile:sass": "node-sass src/scss/main.css css/style.compile.css",
     "prefix:css": "postcss css/style.compile.css -o css/style.prefix.css",
     "build": "npm-run-all compile:sass prefix:css"
   },
@@ -29,6 +29,7 @@
     "sass": "^1.50.1"
   },
   "dependencies": {
-    "all": "^0.0.0"
+    "all": "^0.0.0",
+    "aos": "^2.3.4"
   }
 }

@@ -26,7 +26,10 @@ footer .col-md-6 input {
     border: none;
     padding: 8px;
     width: 50%;
+
     border-bottom: #1F4021 1px solid;
+    border-bottom: #1F4021 2px solid;
+
 }
 
 .coypright {
@@ -36,6 +39,9 @@ footer .col-md-6 input {
 hr {
     width: 100%;
     border: $color-primary 10px solid;
+
+    border: $color-primary 2px solid;
+
     border-radius: 5px;
 }
 
