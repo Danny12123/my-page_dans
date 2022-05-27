@@ -461,7 +461,7 @@ hr {
 #about {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right bottom, #273b28cb, #225706d3), url(/assets/img/pic-5.jpg);
+  background-image: linear-gradient(to right bottom, #273b28cb, #225706d3), url("../../../assets/img/pic-5.jpg");
   background-position: top;
   background-size: cover;
   clip-path: polygon(0 200px, 0 100%, 100% 100%, 100% 0);
@@ -495,7 +495,7 @@ hr {
   #about {
     width: 100%;
     height: 145vh;
-    background-image: linear-gradient(to right bottom, #273b28cb, #225706d3), url(./img/pic-5.jpg);
+    background-image: linear-gradient(to right bottom, #273b28cb, #225706d3), url("../../../assets/img/pic-5.jpg");
     background-position: top;
     background-size: cover;
     clip-path: polygon(0 200px, 0 100%, 100% 100%, 100% 0);
