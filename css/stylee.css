@@ -567,7 +567,7 @@ hr {
 .contact .container-md .row .col-md-4 {
   padding: 15px;
   border-radius: 5px;
-  background-color: #225706d3; }
+  background-image: linear-gradient(to right bottom, #273b28cb, #225706d3), url("../../../assets/img/pic-5.jpg"); }
 
 .contact .container-md .row .col-md-4 h5 {
   color: #F0F0F2;

@@ -7,7 +7,7 @@
 .contact .container-md .row .col-md-4 {
     padding: 15px;
     border-radius: 5px;
-    background-color: $color-trans-green;
+    background-image: linear-gradient(to right bottom, $color-deep-green, $color-trans-green ), url("../../../assets/img/pic-5.jpg");
     // background-image: linear-gradient(to right bottom, $color-gradient-one, $color-gradient-two), url("../../../dist/assets/img/pic-5.jpg");
     // background-position: top;
     // background-size: cover;
