@@ -296,6 +296,10 @@ header {
   margin-top: 70px;
   text-align: center; }
 
+#header-nav .head-text P {
+  color: #fff;
+  text-align: center; }
+
 #header-nav ul li {
   padding: 10px;
   list-style: none; }
