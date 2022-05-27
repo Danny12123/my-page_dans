@@ -474,8 +474,7 @@ hr {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   color: #1F4021;
-  text-align: center;
-  margin-top: 50px; }
+  text-align: center; }
 
 .col-txt p {
   font-family: Arial, Helvetica, sans-serif;
@@ -492,11 +491,13 @@ hr {
   .container-lg .row .col-lg-6 img {
     width: 100%;
     border-radius: 5px;
-    margin-top: 90px;
+    margin-top: 95px;
     margin-bottom: 14px; }
+  .about-txt {
+    margin-top: 100px; }
   #about {
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     background-image: linear-gradient(to right bottom, #273b28bf, #225706bc), url(./img/pic-5.jpg);
     background-position: top;
     background-size: cover;
@@ -518,7 +519,7 @@ hr {
 #m_header {
   width: 100%;
   height: 15vh;
-  background-image: linear-gradient(to right bottom, #b0bf99d8, #94a66dd8), url("../../../dist/assets/img/pic-5.jpg");
+  background-image: linear-gradient(to right bottom, #273b28bf, #225706bc), url("../../../dist/assets/img/pic-5.jpg");
   background-position: top;
   background-size: cover;
   position: fixed;
@@ -534,7 +535,7 @@ hr {
   padding-top: 10px; }
 
 #m_header .m_header img {
-  width: 10%; }
+  width: 12%; }
 
 #m_header .m_header ul {
   display: flex; }

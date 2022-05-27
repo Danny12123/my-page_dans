@@ -2,7 +2,7 @@
 #m_header {
     width: 100%;
         height: 15vh;
-        background-image: linear-gradient(to right bottom, $color-gradient-one, $color-gradient-two), url("../../../dist/assets/img/pic-5.jpg");
+        background-image: linear-gradient(to right bottom, $color-deep-green, $color-trans-green ), url("../../../dist/assets/img/pic-5.jpg");
         background-position: top;
         background-size: cover;
 
@@ -20,7 +20,7 @@
     padding-top: 10px;
 }
 #m_header .m_header img {
-    width: 10%;
+    width: 12%;
 }
 #m_header .m_header ul {
     display: flex;
