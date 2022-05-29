@@ -9,7 +9,7 @@ body {
 header {
     width: 100%;
     height: 9vh;
-    background-color: #94A66D;
+    background-image: linear-gradient(to right bottom, #273b28, #225706 );
     z-index: 999;
     position: absolute;
     position: fixed;
