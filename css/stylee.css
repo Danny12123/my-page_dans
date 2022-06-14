@@ -374,6 +374,10 @@ header {
 .notification {
   text-align: center; }
 
+.fa-cont a {
+  text-decoration: none;
+  color: #0e2110; }
+
 #features {
   padding: 0vw 8vw 0 8vw;
   text-align: center; }
