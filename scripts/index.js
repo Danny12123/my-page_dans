@@ -118,8 +118,9 @@ let availableOptions = [];
 function setAvilableQuestions() {
   const totalQuestion = quiz.length;
   for (var i=0; i < totalQuestion; i++) {
-    availableQuestions.push(quiz[i]
+    availableQuestions.push(quiz[i])
   
+}
 }
 
 function getNewQuestion() {
