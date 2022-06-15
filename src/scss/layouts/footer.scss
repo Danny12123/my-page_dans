@@ -1,63 +1,105 @@
 @import '../base/variables';
 /* footer */
-footer .col-md-6 h2 {
-    margin-left: 20px;
+#footer {
+    background-color: $color-deep-primary;
+    color: $color-smoke-white;
+    padding: 20px;
 }
-footer .col-md-6 ul  {
+.footer-col-1 {
+    border-left: 2px #fff solid;
+}
+.footer-col-1 ul li {
     text-align: start;
-}
-footer .col-md-6 ul li {
-    margin: 10px 0;
     list-style: none;
 }
-footer .col-md-6 ul li a{
+.footer-col-1 ul li a{
     text-decoration: none;
-    padding: 5px 0;
-    color: #1F4021;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    
+            padding: 5px 0;
+            color: $color-smoke-white;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
 }
-footer .col-md-6 ul li a:hover{
-    border-bottom: #1F4021 2px solid;
-}
-footer .col-md-6 input {
-    border: none;
-    padding: 8px;
-    width: 50%;
-    border-bottom: #1F4021 1px solid;
-}
-
-.coypright {
-    text-align: center;
-
-}
-hr {
+.footer-col-2 input {
     width: 100%;
-    border: $color-primary 10px solid;
-    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: $color-deep-primary;
+    border: none;
+    border-bottom: #fff 2px solid;
 }
-
-.coypright h3 {
-    font-size: 15px;
-    font-weight: 700;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.notification {
+    text-align: center;
 }
-
-.note-download {
-    padding: 7px 15px;
-    color: #D7D7D9;
-    font-weight: 400;
-    font-family: Arial,
-        Helvetica,
-        sans-serif;
-    background-color: #1F4021;
-}
-
 .fa-cont a {
     text-decoration: none;
-    padding: 5px;
-    color: #1F4021;
-    font-size: 20px;
+    color: $color-deep-primary;
 }
+// footer .col-md-6 h2 {
+//     margin-left: 20px;
+// }
+// footer .col-md-6 ul  {
+//     text-align: start;
+// }
+// footer .col-md-6 ul li {
+//     margin: 10px 0;
+//     list-style: none;
+// }
+// footer .col-md-6 ul li a{
+//     text-decoration: none;
+//     padding: 5px 0;
+//     color: #1F4021;
+//     font-size: 15px;
+//     font-weight: 600;
+//     font-family: Arial, Helvetica, sans-serif;
+    
+// }
+// footer .col-md-6 ul li a:hover{
+//     border-bottom: #1F4021 2px solid;
+// }
+// footer .col-md-6 input {
+//     border: none;
+//     padding: 8px;
+//     width: 50%;
+
+//     border-bottom: #1F4021 1px solid;
+//     border-bottom: #1F4021 2px solid;
+
+// }
+
+// .coypright {
+//     text-align: center;
+
+// }
+// hr {
+//     width: 100%;
+//     border: $color-primary 10px solid;
+
+//     border: $color-primary 2px solid;
+
+//     border-radius: 5px;
+// }
+
+// .coypright h3 {
+//     font-size: 15px;
+//     font-weight: 700;
+//     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+// }
+
+// .note-download {
+//     padding: 7px 15px;
+//     color: #D7D7D9;
+//     font-weight: 400;
+//     font-family: Arial,
+//         Helvetica,
+//         sans-serif;
+//     background-color: #1F4021;
+// }
+
+// .fa-cont a {
+//     text-decoration: none;
+//     padding: 5px;
+//     color: #1F4021;
+//     font-size: 20px;
+// }

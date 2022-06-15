@@ -11,6 +11,8 @@ window.addEventListener('scroll', ()=>{
         console.log("2st position of window" + windowPosition);
 
 
+
+
     }else {
         features.classList.remove('active');
         console.log("3st position of element" + positionOfElement);
@@ -38,7 +40,9 @@ window.addEventListener('scroll', function() {
   }
 })
 
-
+AOS.init({
+    duration: 1200,
+});
 
 
 //quiz
@@ -115,8 +119,8 @@ function setAvilableQuestions() {
   const totalQuestion = quiz.length;
   for (var i=0; i < totalQuestion; i++) {
     availableQuestions.push(quiz[i])
-  }
   
+}
 }
 
 function getNewQuestion() {
@@ -125,7 +129,7 @@ function getNewQuestion() {
 
     // set question text
     //get random question
-    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
+    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
     currentQuestion = questionIndex;
     questionText.innerHTML = currentQuestion.q;
     //get the position of "questionIndex" from the availbalequestion array;
@@ -137,21 +141,23 @@ function getNewQuestion() {
     //get the length of option
     const optionLen = currentQuestion.options.length
     // push options into availbalequestion array;
-    // let i = 0
-    // while (i <= optionLen) {
-    //     availableOptions.push(i)
-    // }
     // for (let i=0; 1<optionLen; i++) {
     //     availableOptions.push(i)
     // }
     
     // create option in html
     for (let i=0; i<optionLen; i++) {
-        const option = document.createElement("div");
-        option.innerHTML = currentQuestion.options[i];
-        option.id = i;
-        option.className = "option";
-        optionContainer.appendChild(option);
+      //random option
+      // const optonIndex = availableOptions[Math.floor(Math.round() * availableOptions.length)];
+      // const index2 = availableOptions.option[i];
+      // availableOptions.splice(index2,1);
+      // console.log(optonIndex);
+
+        // const option = document.createElement("div");
+        // option.innerHTML = currentQuestion.options[optonIndex];
+        // option.id = optonIndex;
+        // option.className = "option";
+        // optionContainer.appendChild(option);
     }
     questonCounter++
 }
@@ -172,6 +178,7 @@ window.onload = function() {
     //second we will call getNewQeustion;
     getNewQuestion();
 }
+
 
 
 
